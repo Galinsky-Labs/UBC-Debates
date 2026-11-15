@@ -169,7 +169,10 @@
           "security/e2eesa-status.json"
         ],
         "planScope": "Thin branded client of Galinsky-Labs/Live-Debate-Engine"
-      }
+      },
+      "contributingPrs": [
+        9
+      ]
     }
   ],
   "pullRequests": [
