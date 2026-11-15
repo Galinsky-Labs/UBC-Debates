@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "repository": "neophilism/UBC-Debates",
+  "repository": "Galinsky-Labs/UBC-Debates",
   "updatedAt": "2026-10-12T13:18:45.302Z",
   "standard": {
-    "repository": "neophilism/End-To-End-Everywhere-Security-Architecture-Standard",
+    "repository": "Galinsky-Labs/End-To-End-Everywhere-Security-Architecture-Standard",
     "commit": "8441335f359c6e446f9bfe8b959f9606ce341409",
     "basis": "development"
   },

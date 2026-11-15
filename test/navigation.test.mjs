@@ -11,9 +11,10 @@ test("app navigation updates status, current link, title and focus without refle
       addEventListener(name, callback) { this.events[name] = callback; },
       querySelectorAll() { return this.children; },
       focus() { this.focused = true; },
+      replaceChildren() { this.children = []; },
     };
   }
-  for (const selector of ["[data-navigation]", "[data-title]", "[data-message]", "[data-status]", ".skip", "main"]) {
+  for (const selector of ["[data-navigation]", "[data-title]", "[data-message]", "[data-status]", "[data-content]", ".skip", "main"]) {
     nodes.set(selector, element());
   }
   const originalDocument = globalThis.document;
@@ -35,7 +36,7 @@ test("app navigation updates status, current link, title and focus without refle
     assert.equal(window.location.hash, "#/");
     window.location.hash = "#/participant";
     events.hashchange(); await flush();
-    assert.match(nodes.get("[data-message]").textContent, /No session or permission/);
+    assert.match(nodes.get("[data-message]").textContent, /never stores your password/);
     assert.equal(nodes.get("[data-title]").focused, true);
     window.location.hash = "#/<script>alert(1)</script>";
     events.hashchange(); await flush();
