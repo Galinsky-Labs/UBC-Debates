@@ -1,5 +1,5 @@
 {
-  "repository": "neophilism/UBC-Debates",
+  "repository": "Galinsky-Labs/UBC-Debates",
   "title": "UBC-Debates canonical PR development plan",
   "schemaVersion": 1,
   "roadmapVersion": 2,
@@ -15,7 +15,9 @@
     {
       "id": "UBC-01",
       "title": "Define branded thin application boundary, routes and component contracts",
-      "prs": [],
+      "prs": [
+        7
+      ],
       "contributingPrs": [
         3,
         4
@@ -28,13 +30,15 @@
           "docs/E2EESA_ADOPTION.md",
           "security/e2eesa-status.json"
         ],
-        "planScope": "Thin branded client of neophilism/Live-Debate-Engine"
+        "planScope": "Thin branded client of Galinsky-Labs/Live-Debate-Engine"
       }
     },
     {
       "id": "UBC-02",
       "title": "Build responsive branded debate experience",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-01"
       ],
@@ -45,13 +49,15 @@
           "docs/E2EESA_ADOPTION.md",
           "security/e2eesa-status.json"
         ],
-        "planScope": "Thin branded client of neophilism/Live-Debate-Engine"
+        "planScope": "Thin branded client of Galinsky-Labs/Live-Debate-Engine"
       }
     },
     {
       "id": "UBC-03",
       "title": "Integrate versioned Live Debate Engine API",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-01"
       ],
@@ -62,13 +68,15 @@
           "docs/E2EESA_ADOPTION.md",
           "security/e2eesa-status.json"
         ],
-        "planScope": "Thin branded client of neophilism/Live-Debate-Engine"
+        "planScope": "Thin branded client of Galinsky-Labs/Live-Debate-Engine"
       }
     },
     {
       "id": "UBC-04",
       "title": "Connect application identity, admission and participant permissions",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-03"
       ],
@@ -79,13 +87,15 @@
           "docs/E2EESA_ADOPTION.md",
           "security/e2eesa-status.json"
         ],
-        "planScope": "Thin branded client of neophilism/Live-Debate-Engine"
+        "planScope": "Thin branded client of Galinsky-Labs/Live-Debate-Engine"
       }
     },
     {
       "id": "UBC-05",
       "title": "Ship accessible playback and live debate controls",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-02",
         "UBC-03"
@@ -97,13 +107,15 @@
           "docs/E2EESA_ADOPTION.md",
           "security/e2eesa-status.json"
         ],
-        "planScope": "Thin branded client of neophilism/Live-Debate-Engine"
+        "planScope": "Thin branded client of Galinsky-Labs/Live-Debate-Engine"
       }
     },
     {
       "id": "UBC-06",
       "title": "Implement required security controls and end-to-end evidence",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "contributingPrs": [
         1,
         2
@@ -119,13 +131,15 @@
           "docs/E2EESA_ADOPTION.md",
           "security/e2eesa-status.json"
         ],
-        "planScope": "Thin branded client of neophilism/Live-Debate-Engine"
+        "planScope": "Thin branded client of Galinsky-Labs/Live-Debate-Engine"
       }
     },
     {
       "id": "UBC-07",
       "title": "Add CI, runtime diagnostics and deployment qualification",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-02",
         "UBC-06"
@@ -137,7 +151,7 @@
           "docs/E2EESA_ADOPTION.md",
           "security/e2eesa-status.json"
         ],
-        "planScope": "Thin branded client of neophilism/Live-Debate-Engine"
+        "planScope": "Thin branded client of Galinsky-Labs/Live-Debate-Engine"
       }
     },
     {
@@ -154,7 +168,7 @@
           "docs/E2EESA_ADOPTION.md",
           "security/e2eesa-status.json"
         ],
-        "planScope": "Thin branded client of neophilism/Live-Debate-Engine"
+        "planScope": "Thin branded client of Galinsky-Labs/Live-Debate-Engine"
       }
     }
   ],
@@ -164,7 +178,7 @@
       "number": 1,
       "title": "Track E2EESA implementation, full testing and independent expert review",
       "state": "closed",
-      "url": "https://github.com/neophilism/UBC-Debates/pull/1",
+      "url": "https://github.com/Galinsky-Labs/UBC-Debates/pull/1",
       "createdAt": "2026-10-12T13:53:36Z",
       "updatedAt": "2026-10-12T14:20:25Z",
       "mergedAt": "2026-10-12T14:20:25Z",
@@ -176,7 +190,7 @@
       "number": 2,
       "title": "Owner policy: proceed with AI security review; defer external audit",
       "state": "closed",
-      "url": "https://github.com/neophilism/UBC-Debates/pull/2",
+      "url": "https://github.com/Galinsky-Labs/UBC-Debates/pull/2",
       "createdAt": "2026-10-13T19:06:05Z",
       "updatedAt": "2026-10-13T19:23:27Z",
       "mergedAt": "2026-10-13T19:23:26Z",
@@ -188,7 +202,7 @@
       "number": 3,
       "title": "Standardize canonical PR registry for Boardroom and Engine Room",
       "state": "closed",
-      "url": "https://github.com/neophilism/UBC-Debates/pull/3",
+      "url": "https://github.com/Galinsky-Labs/UBC-Debates/pull/3",
       "createdAt": "2026-10-13T19:50:54Z",
       "updatedAt": "2026-10-16T15:24:29Z",
       "mergedAt": "2026-10-16T15:24:29Z",
@@ -200,7 +214,7 @@
       "number": 4,
       "title": "Run owner-policy and project-source integrity checks on every PR",
       "state": "closed",
-      "url": "https://github.com/neophilism/UBC-Debates/pull/4",
+      "url": "https://github.com/Galinsky-Labs/UBC-Debates/pull/4",
       "createdAt": "2026-10-13T20:26:09Z",
       "updatedAt": "2026-10-13T20:27:20Z",
       "mergedAt": "2026-10-13T20:27:20Z",

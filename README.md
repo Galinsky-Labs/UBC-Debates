@@ -1,6 +1,6 @@
 # UBC Debates
 
-A thin branded application of [Live Debate Engine](https://github.com/neophilism/Live-Debate-Engine).
+A thin branded application of [Live Debate Engine](https://github.com/Galinsky-Labs/Live-Debate-Engine).
 The UBC-01 foundation builds an offline browser shell with overview, program,
 debate, speaker and participant navigation. Engine integration is unverified;
 the shell shows unavailable states and grants no participant session or access.

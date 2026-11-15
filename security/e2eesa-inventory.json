@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "repository": "neophilism/UBC-Debates",
+  "repository": "Galinsky-Labs/UBC-Debates",
   "classificationStatus": "unverified",
   "coverageComplete": false,
   "components": [],
@@ -8,7 +8,7 @@
   "sourceObservations": [
     {
       "path": "docs/DEVELOPMENT_PLAN.md",
-      "repository": "neophilism/Live-Debate-Engine"
+      "repository": "Galinsky-Labs/Live-Debate-Engine"
     }
   ],
   "limitations": [
