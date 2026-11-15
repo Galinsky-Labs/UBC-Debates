@@ -15,7 +15,9 @@
     {
       "id": "UBC-01",
       "title": "Define branded thin application boundary, routes and component contracts",
-      "prs": [],
+      "prs": [
+        7
+      ],
       "contributingPrs": [
         3,
         4
@@ -34,7 +36,9 @@
     {
       "id": "UBC-02",
       "title": "Build responsive branded debate experience",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-01"
       ],
@@ -51,7 +55,9 @@
     {
       "id": "UBC-03",
       "title": "Integrate versioned Live Debate Engine API",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-01"
       ],
@@ -68,7 +74,9 @@
     {
       "id": "UBC-04",
       "title": "Connect application identity, admission and participant permissions",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-03"
       ],
@@ -85,7 +93,9 @@
     {
       "id": "UBC-05",
       "title": "Ship accessible playback and live debate controls",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-02",
         "UBC-03"
@@ -103,7 +113,9 @@
     {
       "id": "UBC-06",
       "title": "Implement required security controls and end-to-end evidence",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "contributingPrs": [
         1,
         2
@@ -125,7 +137,9 @@
     {
       "id": "UBC-07",
       "title": "Add CI, runtime diagnostics and deployment qualification",
-      "prs": [],
+      "prs": [
+        8
+      ],
       "dependsOn": [
         "UBC-02",
         "UBC-06"
